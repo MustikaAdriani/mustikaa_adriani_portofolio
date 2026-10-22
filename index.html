@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Mustika Adriani</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-pink fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                Mustika Adriani
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME: FOTO -->
+<section id="home" class="home-section">
+    <div class="container text-center home-content">
+        <img src="Profile.jpg" alt="Foto Mustika" class="foto-profil">
+        <h1>Mustika Adriani</h1>
+        <p class="subtitle">Business Administration Student</p>
+    </div>
+
+    <svg class="wave-divider" xmlns="http://www.w3.org/2000/svg"
+         viewBox="0 0 1440 320" preserveAspectRatio="none">
+        <path fill="#f3f4f5" fill-opacity="1"
+              d="M0,160L48,170.7C96,181,192,203,288,208C384,213,480,203,576,181.3C672,160,768,128,864,128C960,128,1056,160,1152,176C1248,192,1344,192,1392,192L1440,192L1440,320L0,320Z">
+        </path>
+    </svg>
+</section>
+
+    <!-- ABOUT -->
+<section id="about" class="content-section about-section">
+    <div class="container">
+
+        <div class="about-header text-center">
+            <span class="about-label">Tentang Saya</span>
+            <h2>About Me</h2>
+            <div class="about-line"></div>
+        </div>
+
+        <div class="row align-items-center g-4">
+
+            <!-- Kartu perkenalan -->
+            <div class="col-lg-7">
+                <div class="about-card">
+                    <p class="about-hello">Halo! 👋</p>
+                    <p>
+                        Nama saya <strong>Mustika Adriani</strong>.
+                        Saya mahasiswa D3 Administrasi Bisnis
+                        di Politeknik Negeri Ujung Pandang.
+                    </p>
+                    <p>
+                        Saya tertarik pada bidang <strong>administrasi</strong>.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Kartu info -->
+            <div class="col-lg-5">
+                <div class="about-info">
+                    <div class="info-item">
+                        <span class="info-icon">🎓</span>
+                        <div>
+                            <small>Pendidikan</small>
+                            <h6>D3 Administrasi Bisnis</h6>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🏫</span>
+                        <div>
+                            <small>Kampus</small>
+                            <h6>Politeknik Negeri Ujung Pandang</h6>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">💼</span>
+                        <div>
+                            <small>Minat</small>
+                            <h6>Administrasi</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+   <!-- PROJECTS -->
+<section id="projects" class="content-section projects-section">
+    <div class="container">
+
+        <div class="projects-header text-center">
+            <span class="projects-label">Karya Saya</span>
+            <h2>My Projects</h2>
+            <div class="projects-line"></div>
+            <p class="projects-sub">Berikut beberapa proyek yang telah saya kerjakan.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                    <span class="project-icon">🌐</span>
+                    <h5>Website Portfolio</h5>
+                    <p>Website pribadi untuk memperkenalkan diri dan menampilkan karya saya.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                    <span class="project-icon">🎨</span>
+                    <h5>Desain UI/UX</h5>
+                    <p>Perancangan tampilan dan pengalaman pengguna menggunakan Figma.</p>
+                    <div class="project-tags">
+                        <span>Figma</span>
+                        <span>UI/UX</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="project-card">
+                    <span class="project-icon">📚</span>
+                    <h5>Aplikasi Perpustakaan</h5>
+                    <p>Aplikasi pengelolaan data perpustakaan menggunakan Excel dan Access.</p>
+                    <div class="project-tags">
+                        <span>Excel</span>
+                        <span>Access</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+   <!-- CONTACT -->
+<section id="contact" class="content-section contact-section">
+    <div class="container">
+
+        <div class="contact-header text-center">
+            <span class="contact-label">Hubungi Saya</span>
+            <h2>Contact Me</h2>
+            <div class="contact-line"></div>
+            <p class="contact-sub">Terima kasih telah mengunjungi portofolio saya.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-6 col-lg-4">
+                <a href="mailto:mustikaikka224@gmail.com" class="contact-card">
+                    <span class="contact-icon">✉️</span>
+                    <div>
+                        <small>Email</small>
+                        <h6>mustikaikka224@gmail.com</h6>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <a href="https://wa.me/+62 887-4492-4066" target="_blank" class="contact-card">
+                    <span class="contact-icon">💬</span>
+                    <div>
+                        <small>WhatsApp</small>
+                        <h6>+62 887-4492-4066</h6>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <a href="https://instagram.com/Must1k444_" target="_blank" class="contact-card">
+                    <span class="contact-icon">📸</span>
+                    <div>
+                        <small>Instagram</small>
+                        <h6>Must1k444_</h6>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 Mustika Adriani | Portofolio Pribadi</p>
+</footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
